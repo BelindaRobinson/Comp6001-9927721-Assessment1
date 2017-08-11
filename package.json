@@ -1,0 +1,14 @@
+{
+    "name": "Comp6001-Assessment1",
+    "version": "0.0.1",
+    "main": "main.js",
+    "scripts": {
+        "start": "electron ."
+    },
+    "description": "Display 3 different colours and resets to white",
+    "repository": "https://github.com/BelindaRobinson/Comp6001-9927721-Assessment1",
+    "license": "Type of license",
+    "dependencies": {
+        "electron": "^1.6.11"
+    }
+}

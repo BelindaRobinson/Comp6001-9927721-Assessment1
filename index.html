@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="main.css">
+    <title>Colour App</title>
+</head>
+<body>
+    
+    <header>Pick a colour</header> 
+    
+    <section>
+        <button type="button" class="redbutton" onclick="RedFunction()">Red</button>
+        <button type="button" class="bluebutton" onclick="BlueFunction()">Blue</button>
+        <button type="button" class="purplebutton" onclick="PurpleFunction()">purple</button>
+        <button type="button" class="resetbutton" onclick="ResetFunction()">reset</button>
+    </section>
+
+    <script>
+        function RedFunction() {
+            document.body.style.backgroundColor = "red";
+        }
+    
+        function BlueFunction() {
+            document.body.style.backgroundColor = "blue";
+        }
+ 
+        function PurpleFunction() {
+            document.body.style.backgroundColor = "purple";
+        }
+  
+        function ResetFunction() {
+            document.body.style.backgroundColor = "white";
+        }
+    </script>
+    
+</body>
+</html>

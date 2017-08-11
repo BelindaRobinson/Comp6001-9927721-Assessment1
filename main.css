@@ -1,0 +1,26 @@
+button[type="button"].redbutton, button[type="button"].bluebutton, button[type="button"].purplebutton, button[type="button"].resetbutton {
+
+    height: 50px;
+    width: 200px;
+    
+    background-color: #ff0000; 
+
+}
+
+button[type="button"].bluebutton {
+
+    background-color: #0000ff;
+    
+}
+
+button[type="button"].purplebutton {
+
+    background-color: #800080;
+    
+}
+
+button[type="button"].resetbutton {
+
+    background-color: #ffffff;
+
+}
